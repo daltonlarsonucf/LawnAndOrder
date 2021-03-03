@@ -8,8 +8,14 @@ h1 {
   font-size: 50px;
 }
 
-h2, h3 {
+h2 {
   font-family: "Friz Quadrata";
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "Friz Quadrata";
+  font-size: 25px;
 }
 
 p {
@@ -303,6 +309,27 @@ select {
 .v-info {
   margin: 0;
   float: left;
+}
+
+/*Propogation Page*/
+.pr-header {
+text-align: center;
+  margin-top: -.5em;
+  font-size: 30px;
+}
+
+.pr-title {
+  text-align: center;
+}
+
+.pr-h3 {
+  text-align: center;
+}
+
+.pr-para {
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 /*Fonts*/
