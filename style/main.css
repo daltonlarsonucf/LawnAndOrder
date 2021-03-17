@@ -28,6 +28,7 @@ img {
 }
 
 button {
+  font-family: "Friz Quadrata";
   font-size: 15px;
   width: 14em;
   height: 3em;
@@ -235,8 +236,6 @@ form {
   display: inline-block;
   margin-top: 20px;
 }
-
-
 
 .dropdown-button:hover, .dropdown-button:focus {
   background-color: #3e8e41;
