@@ -230,10 +230,6 @@ form {
   text-align: center;
 }
 
-select {
-  margin-top: 20px;
-}
-
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -250,6 +246,7 @@ select {
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-top: 20px;
 }
 
 .dropdown-content {
