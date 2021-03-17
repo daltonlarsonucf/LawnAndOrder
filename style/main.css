@@ -230,23 +230,16 @@ form {
   text-align: center;
 }
 
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #3e8e41;
-}
-
 .dropdown {
   position: relative;
   display: inline-block;
   margin-top: 20px;
+}
+
+
+
+.dropdown-button:hover, .dropdown-button:focus {
+  background-color: #3e8e41;
 }
 
 .dropdown-content {
@@ -270,7 +263,7 @@ form {
 }
 
 .show {
-  display:block;
+  display: block;
 }
 
 /*Project Page*/
