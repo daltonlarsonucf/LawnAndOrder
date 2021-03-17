@@ -6,7 +6,12 @@
   </head>
 
   <body>
-    <script src="../script/main.js"></script>
+    <script>
+      document.getElementById("myBtn").onclick = function() {myFunction()};
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+    </script>
     <div class="navgrid">
       <a href="index.html"><img class="brand" src="images/lawnandorder.png" alt="Lawn & Order"></a>
       <div class="navbar">
