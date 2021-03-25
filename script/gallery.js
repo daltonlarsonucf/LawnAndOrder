@@ -1,10 +1,6 @@
 var modal1 = document.getElementById("myModal");
 var open1 = document.getElementById("openModal");
-var span1 = document.getElementsByClassName("close1")[0];
-
-var modal2 = document.getElementById("nothingModal");
-var open2 = document.getElementById("openNothing");
-var span2 = document.getElementsByClassName("close2")[0];
+var span1 = document.getElementsByClassName("close")[0];
 
 open1.onclick = function() {
   modal1.style.display = "block";
@@ -17,6 +13,10 @@ window.onclick = function(event) {
     modal1.style.display = "none";
   }
 }
+
+var modal2 = document.getElementById("nothingModal");
+var open2 = document.getElementById("openNothing");
+var span2 = document.getElementsByClassName("close1")[0];
 
 open2.onclick = function() {
   modal2.style.display = "block";
