@@ -13,7 +13,7 @@ window.onclick = function(event) {
     modal1.style.display = "none";
   }
 }
-
+/*
 var modal2 = document.getElementById("nothingModal");
 var open2 = document.getElementById("openNothing");
 var span2 = document.getElementsByClassName("close1")[0];
@@ -29,3 +29,4 @@ window.onclick = function(event) {
     modal2.style.display = "none";
   }
 }
+*/
