@@ -1,16 +1,16 @@
-var modal1 = document.getElementById("myModal");
-var open1 = document.getElementById("openModal");
-var span1 = document.getElementsByClassName("close")[0];
+var modal = document.getElementById("myModal");
+var open = document.getElementById("openModal");
+var span = document.getElementsByClassName("close")[0];
 
-open1.onclick = function() {
-  modal1.style.display = "block";
+open.onclick = function() {
+  modal.style.display = "block";
 }
-span1.onclick = function() {
-  modal1.style.display = "none";
+span.onclick = function() {
+  modal.style.display = "none";
 }
 window.onclick = function(event) {
-  if (event.target == modal1) {
-    modal1.style.display = "none";
+  if (event.target == modal) {
+    modal.style.display = "none";
   }
 }
 /*
