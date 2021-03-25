@@ -16,7 +16,7 @@ window.onclick = function(event) {
 
 var modal2 = document.getElementById("nothingModal");
 var open2 = document.getElementById("openNothing");
-var span2 = document.getElementsByClassName("close1")[0];
+var span2 = document.getElementsByClassName("close")[0];
 
 open2.onclick = function() {
   modal2.style.display = "block";
