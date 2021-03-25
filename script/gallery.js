@@ -1,5 +1,3 @@
-//var modal1 = document.getElementById("myModal");
-//var open1 = document.getElementById("openModal");
 var modal1 = document.getElementsByClassName("modal")[0];
 var open1 = document.getElementsByClassName("my-modal")[0];
 var span1 = document.getElementsByClassName("close")[0];
@@ -32,8 +30,8 @@ window.onclick = function(event2) {
   }
 }
 
-var modal3 = document.getElementById("gardenModal");
-var open3 = document.getElementById("openGarden");
+var modal3 = document.getElementsByClassName("modal")[2];
+var open3 = document.getElementsByClassName("my-modal")[2];
 var span3 = document.getElementsByClassName("close")[2];
 
 open3.onclick = function() {
@@ -48,8 +46,8 @@ window.onclick = function(event3) {
   }
 }
 
-var modal4 = document.getElementById("pottingModal");
-var open4 = document.getElementById("openPotting");
+var modal4 = document.getElementsByClassName("modal")[3];
+var open4 = document.getElementsByClassName("my-modal")[3];
 var span4 = document.getElementsByClassName("close")[3];
 
 open4.onclick = function() {
@@ -64,8 +62,8 @@ window.onclick = function(event4) {
   }
 }
 
-var modal5 = document.getElementById("eggplantModal");
-var open5 = document.getElementById("openEggplant");
+var modal5 = document.getElementsByClassName("modal")[4];
+var open5 = document.getElementsByClassName("my-modal")[4];
 var span5 = document.getElementsByClassName("close")[4];
 
 open5.onclick = function() {
@@ -80,8 +78,8 @@ window.onclick = function(event5) {
   }
 }
 
-var modal6 = document.getElementById("butterflyModal");
-var open6 = document.getElementById("openButterfly");
+var modal6 = document.getElementsByClassName("modal")[5];
+var open6 = document.getElementsByClassName("my-modal")[5];
 var span6 = document.getElementsByClassName("close")[5];
 
 open6.onclick = function() {
