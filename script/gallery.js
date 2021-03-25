@@ -16,8 +16,8 @@ window.onclick = function(event1) {
   }
 }
 
-var modal2 = document.getElementById("nothingModal");
-var open2 = document.getElementById("openNothing");
+var modal2 = document.getElementsByClassName("modal")[1];
+var open2 = document.getElementsByClassName("my-modal")[1];
 var span2 = document.getElementsByClassName("close")[1];
 
 open2.onclick = function() {
