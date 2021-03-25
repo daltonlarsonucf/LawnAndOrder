@@ -1,5 +1,7 @@
-var modal1 = document.getElementById("myModal");
-var open1 = document.getElementById("openModal");
+//var modal1 = document.getElementById("myModal");
+//var open1 = document.getElementById("openModal");
+var modal1 = document.getElementsByClassName("modal")[0];
+var open1 = document.getElementsByClassName("my-modal")[0];
 var span1 = document.getElementsByClassName("close")[0];
 
 open1.onclick = function() {
