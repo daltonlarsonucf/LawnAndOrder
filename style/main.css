@@ -1,7 +1,7 @@
 body {
   font-family: "Carrois Gothic";
-  color: #000000;
-  background-color: lightgrey;
+  color: white;
+  background-color: #e3e3e3;
 }
 
 h1 {
@@ -57,6 +57,7 @@ button {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   padding: 20px;
+  background-color: white;
 }
 
 .brand {
