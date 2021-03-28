@@ -1,6 +1,7 @@
 body {
   font-family: "Carrois Gothic";
-  color: lightgrey;
+  color: #000000;
+  background-color: lightgrey;
 }
 
 h1 {
