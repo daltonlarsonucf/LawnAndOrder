@@ -1,43 +1,28 @@
-/*Fonts*/
-@font-face {
-  font-family: "Carrois Gothic";
-  src: url("../fonts/CarroisGothic.woff") format("woff")
-}
-
-@font-face {
-  font-family: "Friz Quadrata";
-  src: url("../fonts/FrizQuadrata.woff") format("woff")
-}
-
-@font-face {
-  font-family: "Friz Quadrata Bold";
-  src: url("../fonts/FrizQuadrataBold.woff") format("woff")
-}
-
-/*Large screen*/
-@media only screen and (min-width: 1090px) {
-  body {
+/*Small screen*/
+@media only screen and (max-width: 415px) {
+  body{
+    background-color: blue;
     font-family: "Carrois Gothic";
     color: #000000;
   }
 
   h1 {
     font-family: "Friz Quadrata";
-    font-size: 50px;
+    font-size: 35px;
   }
 
   h2 {
     font-family: "Friz Quadrata";
-    font-size: 30px;
+    font-size: 20px;
   }
 
   h3 {
     font-family: "Friz Quadrata";
-    font-size: 25px;
+    font-size: 18px;
   }
 
   p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   img {
@@ -55,7 +40,7 @@
 
   button {
     font-family: "Carrois Gothic";
-    font-size: 18px;
+    font-size: 15px;
     width: 14em;
     height: 3em;
     border-radius: 25px;
@@ -97,7 +82,7 @@
     display: inline-block;
   }
 
-  .nav {
+  .nav { /*Change to dropdown!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
     font-size: 20px;
     text-align: center;
     padding: 16px 20px;
@@ -132,7 +117,7 @@
 
   .f-img {
     display: inline-grid;
-    margin: 50px;
+    margin: 20px;
     margin-bottom: 0px;
   }
 
@@ -180,7 +165,7 @@
   }
 
   /*About Page*/
-  .a-img {
+  .a-img { /*IDK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
     margin-top: 20px;
     width: 60%;
   }
@@ -206,14 +191,14 @@
 
   .g-grid {
     display: grid;
-    grid-column-gap: 20px;
-    grid-row-gap: 100px;
-    grid-template-columns: auto auto auto auto;
-    padding: 20px;
+    grid-column-gap: 5px;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto;
+    padding: 5px;
   }
 
   .g-img {
-    width: 90%;
+    width: 100%;
   }
 
   /*Events Page*/
@@ -226,7 +211,7 @@
     text-align: center;
   }
 
-  .e-grid {
+  .e-grid { /*IDK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
     display: grid;
     grid-column-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -252,9 +237,9 @@
   /*Tips Page*/
   .t-grid {
     display: grid;
-    grid-column-gap: 20px;
-    grid-row-gap: 100px;
-    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto;
     padding: 20px;
     margin-top: 20px;
   }
@@ -264,7 +249,7 @@
   }
 
   .t-img {
-    width: 75%;
+    width: 80%;
   }
 
   .t-button {
