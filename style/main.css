@@ -350,8 +350,8 @@
     margin-left: 35%;
   }
 
-  /*Valentine Page*/
-  .v-grid {
+  /*Events Coming Up Pages*/
+  .ev-grid {
     display: grid;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
@@ -359,21 +359,21 @@
     padding: 20px;
   }
 
-  .v-griditem {
+  .ev-griditem {
     margin-left: 5%;
     margin-right: 5%;
   }
 
-  .v-header {
+  .ev-header {
     margin-top: 0px;
   }
 
-  .v-img {
+  .ev-img {
     float: left;
     width: 100%;
   }
 
-  .v-info {
+  .ev-info {
     margin: 0;
     float: left;
   }
