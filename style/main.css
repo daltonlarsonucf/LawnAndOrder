@@ -47,6 +47,8 @@
 
   a {
     padding: 0px;
+    color: #347C06;
+
   }
 
   textarea {
@@ -250,13 +252,17 @@
   }
 
   /*Tips Page*/
+  .t-header {
+    text-align: center;
+  }
+
   .t-grid {
     display: grid;
     grid-column-gap: 20px;
     grid-row-gap: 100px;
     grid-template-columns: auto auto auto auto;
     padding: 20px;
-    margin-top: 20px;
+    padding-top: 0px;
   }
 
   .t-griditem {
@@ -378,24 +384,41 @@
     float: left;
   }
 
-  /*Propogation Page*/
-  .pr-header {
+  /*Tips Information Pages*/
+  .ti-header {
     text-align: center;
     margin-top: 20px;
   }
 
-  .pr-title {
+  .ti-img {
+    margin-bottom: 40px;
+  }
+
+  .ti-box {
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 10px 80px 10px 80px;
+    margin-bottom: 20px;
+    background-color: #c9d1d6;
     text-align: center;
   }
 
-  .pr-h3 {
+  .ti-h3 {
     text-align: center;
   }
 
-  .pr-para {
+  .ti-para {
     text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
+  }
+
+  .ti-list {
+    text-align: left;
+    margin-top: -20px;
+  }
+
+  .green {
+    color: #347C06;
   }
 
   /*Modal*/
