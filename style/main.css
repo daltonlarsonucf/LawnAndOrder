@@ -445,10 +445,14 @@
 
   .modal-content {
     background-color: #fefefe;
-    margin: 15% auto;
+    margin: 5% auto;
     padding: 20px;
     width: 80%;
     text-align: center;
+  }
+
+  .modal-img {
+    width: 30%;
   }
 
   .close {
