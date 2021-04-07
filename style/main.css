@@ -71,6 +71,10 @@
     font-weight: bold;
   }
 
+  .green {
+    color: #347C06;
+  }
+
   /*Navigation Bar*/
   .navgrid {
     display: grid;
@@ -146,7 +150,7 @@
     width: 50px;
   }
 
-  .pintrest {
+  .pinterest {
     width: 50px;
   }
 
@@ -317,7 +321,7 @@
   }
 
   .t-empty {
-    margin-bottom: 200px;
+    margin-bottom: 50px;
   }
 
   /*Contact Page*/
@@ -397,9 +401,27 @@
   }
 
   /*Tips Information Pages*/
+  .ti-top {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
   .ti-header {
     text-align: center;
     margin-top: 20px;
+    margin-left: -100px;
+  }
+
+  .ti-back {
+    display: block;
+    align-items: left;
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 50px;
+  }
+
+  .ti-backimg {
+    width: 50px;
   }
 
   .ti-img {
@@ -427,10 +449,6 @@
   .ti-list {
     text-align: left;
     margin-top: -20px;
-  }
-
-  .green {
-    color: #347C06;
   }
 
   /*Modal*/
