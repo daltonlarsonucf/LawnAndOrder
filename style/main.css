@@ -230,12 +230,16 @@
 
   .e-grid {
     display: grid;
+    margin-left: 40px;
+    margin-right: 40px;
     grid-column-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .e-griditem {
     text-align: center;
+    padding-bottom: 20px;
+    background-color: #c9d1d6;
   }
 
   .e-h3 {
@@ -270,7 +274,7 @@
   }
 
   .t-img {
-    width: 75%;
+    width: 60%;
   }
 
   .t-button {
