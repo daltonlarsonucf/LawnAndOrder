@@ -170,6 +170,19 @@
   }
 
   /*About Page*/
+  .a-grid {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1.5fr 1fr;
+    padding: 20px;
+  }
+
+  .a-griditem {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
   .a-img { /*IDK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
     margin-top: 20px;
     width: 60%;
@@ -179,13 +192,6 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
-  }
-
-  .a-para {
-    text-align: center;
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-bottom: 18px;
   }
 
   /*Gallery Page*/
