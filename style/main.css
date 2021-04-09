@@ -48,7 +48,6 @@
   a {
     padding: 0px;
     color: #347C06;
-
   }
 
   textarea {
@@ -250,18 +249,10 @@
     margin-top: -10px;
   }
 
-  .e-arrowl {
-    width: 50%;
-    transform: scaleX(-1);
-  }
-
-  .e-arrowr {
-    width: 50%;
-  }
-
   /*Tips Page*/
   .t-header {
     text-align: center;
+    margin-top: 20px;
   }
 
   .t-grid {

@@ -32,6 +32,7 @@
 
   a {
     padding: 0px;
+    color: #347C06;
   }
 
   textarea {
@@ -52,6 +53,10 @@
 
   .bold {
     font-weight: bold;
+  }
+
+  .green {
+    color: #347C06;
   }
 
   /*Navigation Bar*/
@@ -129,7 +134,7 @@
     width: 50px;
   }
 
-  .pintrest {
+  .pinterest {
     width: 50px;
   }
 
@@ -198,7 +203,7 @@
   }
 
   .g-img {
-    width: 100%;
+    width: 90%;
   }
 
   /*Events Page*/
@@ -213,30 +218,26 @@
 
   .e-grid { /*IDK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
     display: grid;
+    margin-left: 40px;
+    margin-right: 40px;
     grid-column-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .e-griditem {
     text-align: center;
+    padding-bottom: 20px;
+    background-color: #c9d1d6;
   }
 
   .e-h3 {
     margin-top: -10px;
   }
 
-  .e-arrowl {
-    width: 50%;
-    transform: scaleX(-1);
-  }
-
-  .e-arrowr {
-    width: 50%;
-  }
-
   /*Tips Page*/
   .t-header {
     text-align: center;
+    margin-top: 20px;
   }
 
   .t-grid {
@@ -281,6 +282,7 @@
 
   .dropdown-content a {
     color: black;
+    font-size: 20px;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -292,6 +294,10 @@
 
   .show {
     display: block;
+  }
+
+  .t-empty {
+    margin-bottom: 50px;
   }
 
   /*Contact Page*/
@@ -331,12 +337,15 @@
   }
 
   .submit {
-    font-size: 15px;
+    display: block;
+    font-size: 16px;
     width: 8em;
     height: 3em;
+    border-radius: 25px;
+    border-width: 0;
     color: white;
     background-color: #43994f;
-    margin-left: 35%;
+    margin: auto;
   }
 
   /*Events Coming Up Pages*/
@@ -367,24 +376,55 @@
     float: left;
   }
 
-  /*Propogation Page*/
-  .pr-header {
+  /*Tips Information Pages*/
+  .ti-top {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .ti-header {
     text-align: center;
     margin-top: 20px;
+    margin-left: -100px;
   }
 
-  .pr-title {
+  .ti-back {
+    display: block;
+    align-items: left;
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 50px;
+  }
+
+  .ti-backimg {
+    width: 50px;
+  }
+
+  .ti-img {
+    margin-bottom: 40px;
+  }
+
+  .ti-box {
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 10px 80px 10px 80px;
+    margin-bottom: 20px;
+    background-color: #c9d1d6;
     text-align: center;
   }
 
-  .pr-h3 {
+  .ti-h3 {
     text-align: center;
   }
 
-  .pr-para {
+  .ti-para {
     text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
+  }
+
+  .ti-list {
+    text-align: left;
+    margin-top: -20px;
   }
 
   /*Modal*/
@@ -410,6 +450,10 @@
     padding: 20px;
     width: 80%;
     text-align: center;
+  }
+
+  .modal-img {
+    width: 30%;
   }
 
   .close {
