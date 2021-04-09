@@ -164,6 +164,7 @@
     grid-row-gap: 20px;
     grid-template-columns: 1fr 1.5fr;
     padding: 20px;
+    margin-bottom: 35px;
   }
 
   .i-griditem {
@@ -333,6 +334,7 @@
   .c-div {
     display: block;
     text-align: center;
+    margin-bottom: 19px;
   }
 
   .c-form {
