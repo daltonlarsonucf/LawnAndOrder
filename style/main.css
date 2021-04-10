@@ -411,7 +411,7 @@
   }
 
   .ev-button {
-    background: white;
+    cursor: pointer;
   }
 
   /*Tips Information Pages*/

@@ -386,8 +386,15 @@
     margin-top: 60px;
   }
 
+  .ev-button-grid {
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+
   .ev-button {
-    background-color: "#43994f"
+    cursor: pointer;
   }
 
   /*Tips Information Pages*/
