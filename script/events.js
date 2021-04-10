@@ -1,21 +1,24 @@
-var valentine = document.getElementById("valentine-button");
+var going = document.getElementById("valentine-going");
+var notgoing = document.getElementById("valentine-notgoing");
 
-function Valentine() {
-  console.log("hello");
-  console.log(valentine.innerHTML);
-  console.log(valentine.style.color);
-
-  if(valentine.style.backgroundColor == "#43994f"){
-    valentine.style.backgroundColor = "white";
-    console.log("hello");
-  }else if(valentine.style.backgroundColor == "white"){
-    valentine.style.backgroundColor = "#43994f";
+function ValentineGoing() {
+  if(notgoing.src == "file:///Users/daltonlarson/Documents/GitHub/LawnAndOrder/images/notgoing2.png"){
+    going.src != "file:///Users/daltonlarson/Documents/GitHub/LawnAndOrder/images/going2.png";
+    if(going.src == "file:///Users/daltonlarson/Documents/GitHub/LawnAndOrder/images/going1.png"){
+      going.src = "file:///Users/daltonlarson/Documents/GitHub/LawnAndOrder/images/going2.png";
+    }else if(going.src == "file:///Users/daltonlarson/Documents/GitHub/LawnAndOrder/images/going2.png"){
+      going.src = "file:///Users/daltonlarson/Documents/GitHub/LawnAndOrder/images/going1.png";
+    }
   }
+}
 
-  if(document.getElementsByClassName("ev-button")[0].style.backgroundColor == "#43994f"){
-    document.getElementsByClassName("ev-button")[0].style.backgroundColor = "white";
-    console.log("hello");
-  }else if(document.getElementsByClassName("ev-button")[0].style.backgroundColor == "white"){
-    document.getElementsByClassName("ev-button")[0].style.backgroundColor = "#43994f";
+function ValentineNotGoing() {
+  if(going.src == "file:///Users/daltonlarson/Documents/GitHub/LawnAndOrder/images/going2.png"){
+    notgoing.src != "file:///Users/daltonlarson/Documents/GitHub/LawnAndOrder/images/notgoing2.png";
+    if(notgoing.src == "file:///Users/daltonlarson/Documents/GitHub/LawnAndOrder/images/notgoing1.png"){
+      notgoing.src = "file:///Users/daltonlarson/Documents/GitHub/LawnAndOrder/images/notgoing2.png"
+    }else if(notgoing.src == "file:///Users/daltonlarson/Documents/GitHub/LawnAndOrder/images/notgoing2.png"){
+      notgoing.src = "file:///Users/daltonlarson/Documents/GitHub/LawnAndOrder/images/notgoing1.png";
+    }
   }
 }

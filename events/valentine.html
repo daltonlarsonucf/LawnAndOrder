@@ -40,8 +40,10 @@
           homemade valentine packages. Our vendors will sell flowers. decorations, chocolates, stuffed animals, and
           more! Prices vary on items chosen.</p>
         <h2 class="ev-rsvp">RSVP:</h2>
-        <button backgroundColor="green" id="valentine-button" onclick="Valentine()">Going</button>
-        <button class="ev-button" onclick="">Not Going</button>
+        <div class="ev-button-grid">
+          <img class="ev-button" id="valentine-going" onclick="ValentineGoing()" src="../images/going2.png">
+          <img class="ev-button" id="valentine-notgoing" onclick="ValentineNotGoing()" src="../images/notgoing2.png">
+        </div>
       </div>
     </div>
     <script src="../script/events.js"></script>
