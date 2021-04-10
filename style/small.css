@@ -382,6 +382,14 @@
     float: left;
   }
 
+  .ev-rsvp {/*CNAGE!!!!!!!!!!!!!!!!!*/
+    margin-top: 60px;
+  }
+
+  .ev-button {
+    background-color: "#43994f"
+  }
+
   /*Tips Information Pages*/
   .ti-top {
     display: grid;

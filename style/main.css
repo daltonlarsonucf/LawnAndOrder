@@ -399,6 +399,14 @@
     float: left;
   }
 
+  .ev-rsvp {
+    margin-top: 60px;
+  }
+
+  .ev-button {
+    background: white;
+  }
+
   /*Tips Information Pages*/
   .ti-top {
     display: grid;
